@@ -34,5 +34,5 @@ bubble_sort_by(%w[hi hello hey]) do |left, right|
   left.length - right.length
 end
 
-test_array = [1, 2, 3, 4, 65, 6, 3, 21, 43, 65, 23, 432, 313, 214, 4, 54]
+test_array = [1, 2, 3, 4, 65, 6, 3, 21, 43, 65, 23, 432, 313, 214, 4, 54, 10]
 p bubble_sort(test_array)
