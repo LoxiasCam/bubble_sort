@@ -5,7 +5,7 @@ def bubble_sort(arr)
   loop do
     swapped = false
     (arr_length - 1).times do |i|
-      if ( arr[i + 1] - arr[i] < 0)
+      if (arr[i + 1] - arr[i]).negative?
         arr[i], arr[i + 1] = arr[i + 1], arr[i]
         swapped = true
       end
@@ -17,11 +17,11 @@ end
 
 def bubble_sort_by(list)
   i = 0
-  while i < list.length - 1 do
-      comparison = yield(list[i], list[i+1])
+  while i < list.length - 1
+    comparison = yield(list[i], list[i + 1])
 
-    if comparison > 0
-      list[i], list[i+1] = list[i+1], list[i]
+    if comparison.positive?
+      list[i], list[i + 1] = list[i + 1], list[i]
       i = 0
     else
       i += 1
@@ -30,9 +30,9 @@ def bubble_sort_by(list)
   print list
 end
 
-bubble_sort_by(["hi","hello", "hey"]) do |left,right|
+bubble_sort_by(%w("hi" "hello" "hey")) do |left,right|
   left.length - right.length
 end
 
-test_array = [1,2,3,4,65,6,3,21,43,65,23,432,313,214,4,54]
+test_array = [1, 2, 3, 4, 65, 6, 3, 21, 43, 65, 23, 432, 313, 214, 4, 54]
 p bubble_sort(test_array)
