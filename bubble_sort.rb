@@ -27,7 +27,7 @@ def bubble_sort_by(list)
       i += 1
     end
   end
-  print list
+  p list
 end
 
 bubble_sort_by(%w[hi hello hey]) do |left, right|
