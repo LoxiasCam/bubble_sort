@@ -6,11 +6,6 @@ This is an exercise to practice [bubble sorting](https://en.wikipedia.org/wiki/B
 
 - Ruby
 
-## Live Demo
-
-[Live Demo Link](https://loxiascam.github.io/directoryCapstone/index.html)
-
-
 ## Getting Started
 
 - Run this command in your OS terminal: `git clone https://github.com/LoxiasCam/directoryCapstone.git` to get a copy of the project.
