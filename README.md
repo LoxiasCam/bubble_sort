@@ -1,7 +1,5 @@
 # Bubble Sort
 
-![screenshot](imgs/screenshot.jpg)
-
 This is an exercise to practice [bubble sorting](https://en.wikipedia.org/wiki/Bubble_sort) with Ruby in order to practice different loops and yield parameters.
 
 ## Built With
