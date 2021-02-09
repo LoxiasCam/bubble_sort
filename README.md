@@ -24,7 +24,7 @@ This is an exercise to practice [bubble sorting](https://en.wikipedia.org/wiki/B
 
 ### Usage
 
-* Run bubbleSort.rb to see how the program sorts differet lists.
+* Run ruby bubble_sort.rb to see how the program sorts differet lists.
 
 ## Authors
 
@@ -47,4 +47,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://es.wikipedia.org/wiki/Licencia_MIT) licensed.
+This project is [MIT](https://github.com/LoxiasCam/bubble_sort/blob/master/LICENSE) licensed.
