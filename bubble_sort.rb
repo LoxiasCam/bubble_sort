@@ -1,3 +1,6 @@
+require 'rubygems'
+require 'bundler/setup'
+
 def bubble_sort(arr)
   arr_length = arr.size
   return arr if arr_length <= 1
